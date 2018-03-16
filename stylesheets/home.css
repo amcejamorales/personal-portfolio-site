@@ -2,14 +2,42 @@
 
 section {
   min-height: 50vh;
-  border-bottom: solid 1px rgba(238, 238, 238, 1) ;
+  border-bottom: solid 1px rgba(238, 238, 238, 1);
   padding: 5vh 10vw;
+}
+
+section:nth-of-type(2n + 1) {
+  background: whitesmoke;
+}
+
+/* main styles  */
+
+nav a {
+  color: rgba(255, 255, 255, 1);
 }
 
 /* hero banner styles  */
 
 section.hero {
   height: 100vh;
-  margin-top: -7vw;
+  margin-top: -10vh;
   padding: 0;
+  background: rgba(238, 238, 238, 1) url("../images/yellow.jpg") no-repeat center center;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section.hero a {
+  color: rgba(255, 255, 255, 1);
+}
+
+section.hero:hover {
+  opacity: 50%;
+}
+
+section.hero div.hero-content {
+
 }
