@@ -1,0 +1,48 @@
+/* universal styles  */
+
+html, body {
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* header styles  */
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+header ul > li:first-child {
+  margin: 0 auto 0 2rem;
+}
+
+header ul > li:last-child {
+  margin-right: 2rem;
+}
+
+header ul li a {
+  display: inline-block;
+  padding: 0.5rem;
+  min-width: 6rem;
+  text-align: center;
+}
+
+
+/* footer styles  */
+
+footer {
+}
