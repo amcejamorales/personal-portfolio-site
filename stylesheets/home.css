@@ -62,3 +62,11 @@ section.home-about p {
   width: 50%;
   height: auto;
 }
+
+/* universal section styles  */
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
