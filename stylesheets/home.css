@@ -34,10 +34,31 @@ section.hero a {
   color: rgba(255, 255, 255, 1);
 }
 
-section.hero:hover {
-  opacity: 50%;
+/* about section styles  */
+
+section.home-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-section.hero div.hero-content {
+section.home-about div.photo-and-info {
+  width: 50%;
+  text-align: center;
+}
 
+div.photo-and-info img {
+  border-radius: 50%;
+}
+
+div.photo-and-info strong, div.photo-and-info span {
+  display: block;
+  margin: 10px;
+}
+
+section.home-about p {
+  margin: 0;
+  width: 50%;
+  height: auto;
 }
