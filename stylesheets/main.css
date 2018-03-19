@@ -80,3 +80,29 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+/* images styles  */
+
+img {
+  max-width: 300px;
+}
+
+/* sections styles  */
+
+
+section {
+  min-height: 50vh;
+  border-bottom: solid 1px rgba(238, 238, 238, 1);
+  padding: 5vh 10vw;
+}
+
+section:nth-of-type(2n + 1) {
+  background: whitesmoke;
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

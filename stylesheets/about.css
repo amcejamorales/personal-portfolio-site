@@ -1,0 +1,20 @@
+/* section styles  */
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section * {
+  margin: 5px;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section div.doing-info {
+  order: 1;
+}
