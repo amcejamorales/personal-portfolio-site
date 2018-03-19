@@ -12,16 +12,23 @@ section:nth-of-type(2n + 1) {
 
 /* modifications to main styles  */
 
+header {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 nav a {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
+}
+
+main {
+  margin-top: 0;
 }
 
 /* hero banner styles  */
 
 section.hero {
   height: 100vh;
-  margin-top: -5vh;
   padding: 0;
   background: rgba(238, 238, 238, 1) url("../images/yellow.jpg") no-repeat center center;
   color: rgba(255, 255, 255, 1);

@@ -21,6 +21,9 @@ a {
 
 header {
   background-color: rgba(209, 154, 1, 1);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 header ul {
@@ -51,12 +54,18 @@ header ul li a {
 /* nav styles  */
 
 nav ul {
-  margin: 0; 
+  margin: 0;
 }
 
 nav ul li a {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
+}
+
+/* main styles  */
+
+main {
+  margin-top: 5vh;
 }
 
 /* footer styles  */
@@ -67,4 +76,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
