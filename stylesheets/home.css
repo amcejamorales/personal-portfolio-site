@@ -19,6 +19,7 @@ section.hero {
   height: 100vh;
   padding: 0;
   background: rgba(238, 238, 238, 1) url("../images/yellow.jpg") no-repeat center center;
+  background-attachment: fixed;
   color: rgba(255, 255, 255, 1);
   display: flex;
   justify-content: center;
@@ -53,10 +54,8 @@ div.photo-and-info strong, div.photo-and-info span {
   margin: 10px;
 }
 
-section.home-about p {
+section.home-about div.about-info {
   margin: 0;
   width: 50%;
   height: auto;
 }
-
-/* universal section styles  */
