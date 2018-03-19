@@ -10,7 +10,7 @@ div.project {
   border-radius: 5%;
 }
 
-div.project-info {
+a.project-info {
   display: block;
   width: 300px;
   height: 172px;
@@ -20,17 +20,18 @@ div.project-info {
   border-top-right-radius: 5%;
 }
 
-div.project-info img {
+a.project-info img {
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   float: left;
 }
 
-div.project-info:hover img {
+a.project-info:hover img {
   margin-top:-200px;
   transition: margin 0.8s;
 }
 
-div.project-info p {
+a.project-info p {
+  color: rgba(255, 255, 255, 1);
   padding-top: 20px;
 }
