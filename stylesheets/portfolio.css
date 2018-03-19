@@ -1,0 +1,36 @@
+body {
+  height: 90%;
+}
+
+div.project {
+  max-height: 250px;
+  max-width: 300px;
+  border: solid 2px rgba(238, 238, 238, 1);
+  text-align: center;
+  border-radius: 5%;
+}
+
+div.project-info {
+  display: block;
+  width: 300px;
+  height: 172px;
+  overflow: hidden;
+  background: rgba(209, 154, 1, 1);
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+div.project-info img {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  float: left;
+}
+
+div.project-info:hover img {
+  margin-top:-200px;
+  transition: margin 0.8s;
+}
+
+div.project-info p {
+  padding-top: 20px;
+}
