@@ -1,13 +1,25 @@
+/* universal styles */
+
 body {
   height: 90%;
 }
 
+/* main styles  */
+
+main {
+  padding: 40px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* individual project styles  */
 div.project {
   max-height: 250px;
   max-width: 300px;
   border: solid 2px rgba(238, 238, 238, 1);
   text-align: center;
   border-radius: 5%;
+  margin: 20px;
 }
 
 a.project-info {
