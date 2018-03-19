@@ -4,6 +4,10 @@ body {
   height: 90%;
 }
 
+aside a:hover, a.active {
+  text-decoration: underline;
+}
+
 /* main styles  */
 
 main {
@@ -16,7 +20,9 @@ main {
 section.journal-section {
   background-color: rgba(255, 255, 255, 1);
   border: none;
-  min-height: 75vh;
+  min-height: 76vh;
+  max-height: 76vh;
+  overflow-x: scroll;
   justify-content: flex-start;
 }
 
@@ -28,7 +34,7 @@ aside {
 }
 
 aside ul li {
-  padding: 5px;
+  padding: 10px;
 }
 
 aside ul li a {
